@@ -21,7 +21,7 @@ const PORT = process.env.PORT || 3000;
 // du site AVVA39. Plusieurs domaines possibles (séparés par une virgule
 // dans la variable d'environnement CORS_ORIGIN), utile pour tester en local
 // tout en gardant la prod protégée.
-const allowedOrigins = (process.env.CORS_ORIGIN || 'http://localhost:8000')
+const allowedOrigins = (process.env.CORS_ORIGIN || 'https://avva39.fr')
   .split(',')
   .map((origin) => origin.trim());
 
